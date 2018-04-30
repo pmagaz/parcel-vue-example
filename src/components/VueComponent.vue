@@ -1,6 +1,12 @@
 <template>
   <div>
     <h1>{{ msg }}</h1>
+      <router-link to="/home">
+          Home
+      </router-link>
+       <router-link to="/lazy">
+          Lazy
+      </router-link>
   </div>
 </template>
 

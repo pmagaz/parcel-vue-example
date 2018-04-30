@@ -12,3 +12,7 @@ You can clone our Git repository:
 
 Execute yarn start or npm run start to start the Parcel development server on http://localhost:1234
 
+### Production build
+
+Execute yarn build or npm run build to generate a production build on dist/ folder
+

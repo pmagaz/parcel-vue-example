@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <vue-component />
+    <router-view></router-view>
   </div>
 </template>
 <style lang="css">
@@ -9,7 +10,7 @@
   }
 </style>
 <script>
-import VueComponent from './components/VueComponent.vue'
+import VueComponent from './components/VueComponent.vue';
 
 export default {
   name: 'app',
