@@ -1,12 +1,9 @@
 {
   "presets": [
     "env",
-    "stage-2",
-    "vue"
   ],
   "plugins": [
     "transform-runtime",
     "dynamic-import-node",
-    "syntax-dynamic-import"
   ]
 }

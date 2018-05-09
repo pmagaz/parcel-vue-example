@@ -6,8 +6,8 @@
   "author": "Pablo Magaz <pmagaz@atsistemas.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel ./index.html",
-    "build": "parcel build src/main.js -d dist"
+    "start": "parcel ./index.html", 
+    "build": "parcel build ./index.html -d dist --no-cache"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
@@ -27,8 +27,10 @@
     "parcel-bundler": "^1.7.1",
     "parcel-plugin-eslint": "^1.0.4",
     "parcel-plugin-vue": "^1.5.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
     "vue": "^2.5.16",
-    "vue-template-compiler": "^2.5.16",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.16"
   }
 }

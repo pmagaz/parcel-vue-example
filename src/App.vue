@@ -1,21 +1,19 @@
 <template>
   <div id="app">
-    <vue-component />
+    <menu-component />
     <router-view></router-view>
   </div>
 </template>
-<style lang="css">
-  #app {
-    background-color: #56b983;
-  }
+<style>
+
 </style>
 <script>
-import VueComponent from './components/VueComponent.vue';
-
+import MenuComponent from './components/MenuComponent.vue';
+import './styles/styles.css';
 export default {
   name: 'app',
   components: {
-    'vue-component': VueComponent,
+    'menu-component': MenuComponent,
   },
 }
 </script>
